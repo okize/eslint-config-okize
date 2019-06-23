@@ -21,6 +21,7 @@
   "homepage": "https://github.com/okize/eslint-config-okize#readme",
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0"
   }
 }
