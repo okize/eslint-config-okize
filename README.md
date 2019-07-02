@@ -1,2 +1,2 @@
 # eslint-config-okize
-My preferred eslint config for web, react &amp; react-native
+My preferred eslint config for web, jest, react &amp; react-native
