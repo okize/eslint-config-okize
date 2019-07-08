@@ -4,6 +4,7 @@
   "description": "Okize's ESLint configurations",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
