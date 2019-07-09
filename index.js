@@ -10,4 +10,4 @@ module.exports = {
     ...reactRules,
     ...a11yRules,
   },
-}
+};

@@ -18,8 +18,8 @@ module.exports = {
   'react/require-default-props': 'off',
   // alpha-sort prop types for lack of a better idea
   'react/sort-prop-types': ['error', {
-    'sortShapeProp': true,
-    'ignoreCase': true,
+    sortShapeProp: true,
+    ignoreCase: true,
   }],
   // alpha-sort default props for consistency
   'react/jsx-sort-default-props': ['error'],

@@ -8,12 +8,12 @@ module.exports = {
     'plugin:react-native/all',
   ],
   parser: 'babel-eslint',
-  'globals': {
-    '__DEV__': true,
+  globals: {
+    __DEV__: true,
   },
   rules: {
     ...commonRules,
     ...reactRules,
     ...reactNativeRules,
   },
-}
+};
