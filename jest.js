@@ -1,4 +1,4 @@
-const testRules = require('./rules/test');
+const testRules = require('./rules/jest');
 
 module.exports = {
   extends: [
