@@ -23,4 +23,8 @@ module.exports = {
   }],
   // alpha-sort default props for consistency
   'react/jsx-sort-default-props': ['error'],
+  // checks rules of hooks: https://reactjs.org/docs/hooks-rules.html
+  'react-hooks/rules-of-hooks': 'error',
+  // checks effect dependencies
+  'react-hooks/exhaustive-deps': 'warn',
 };
