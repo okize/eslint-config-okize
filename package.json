@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/okize/eslint-config-okize#readme",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
