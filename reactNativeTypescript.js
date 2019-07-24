@@ -1,13 +1,13 @@
 const commonRules = require('./rules/common');
 const reactRules = require('./rules/react');
 const reactNativeRules = require('./rules/reactNative');
+const reactTypescript = require('./rules/reactTypescript');
 
 module.exports = {
   extends: [
-    'airbnb',
-    'plugin:react-native/all',
+    'plugin:@typescript-eslint/recommended',
+    'airbnb-typescript',
   ],
-  parser: 'babel-eslint',
   plugins: [
     'react-hooks',
   ],
@@ -18,5 +18,6 @@ module.exports = {
     ...commonRules,
     ...reactRules,
     ...reactNativeRules,
+    ...reactTypescript,
   },
 };
