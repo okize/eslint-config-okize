@@ -1,3 +1,10 @@
+## [v1.3.0]
+> 2019-07-26
+
+* Add configuration for React Native Typescript projects
+
+[v1.3.0]: https://github.com/okize/eslint-config-okize/compare/v1.2.0...v1.3.0
+
 ## [v1.2.0]
 > 2019-07-23
 
