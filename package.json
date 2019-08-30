@@ -34,5 +34,8 @@
     "eslint-plugin-react-hooks": "^1.6.0",
     "eslint-plugin-react-native": "^3.7.0",
     "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.0.0"
   }
 }
