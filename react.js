@@ -5,9 +5,7 @@ const a11yRules = require('./rules/a11y');
 module.exports = {
   extends: 'airbnb',
   parser: 'babel-eslint',
-  plugins: [
-    'react-hooks',
-  ],
+  plugins: ['react-hooks'],
   rules: {
     ...commonRules,
     ...reactRules,

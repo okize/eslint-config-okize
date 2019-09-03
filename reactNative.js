@@ -3,14 +3,9 @@ const reactRules = require('./rules/react');
 const reactNativeRules = require('./rules/reactNative');
 
 module.exports = {
-  extends: [
-    'airbnb',
-    'plugin:react-native/all',
-  ],
+  extends: ['airbnb', 'plugin:react-native/all'],
   parser: 'babel-eslint',
-  plugins: [
-    'react-hooks',
-  ],
+  plugins: ['react-hooks'],
   globals: {
     __DEV__: true,
   },
