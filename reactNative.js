@@ -7,7 +7,8 @@ module.exports = {
   parser: 'babel-eslint',
   plugins: ['react-hooks'],
   globals: {
-    __DEV__: true,
+    __DEV__: true, // this is a special env var provided by RN used to determine dev/prod mode
+    fetch: true, // RN provides the Fetch API
   },
   rules: {
     ...commonRules,
