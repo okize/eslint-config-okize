@@ -1,3 +1,11 @@
+## [v1.4.2]
+
+> 2019-09-06
+
+- Update React Native rules
+
+[v1.4.2]: https://github.com/okize/eslint-config-okize/compare/v1.4.1...v1.4.2
+
 ## [v1.4.1]
 
 > 2019-08-29
