@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-okize",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Okize's ESLint configurations",
   "main": "react.js",
   "scripts": {
