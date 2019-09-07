@@ -9,9 +9,6 @@ module.exports = {
     'airbnb-typescript',
   ],
   plugins: ['react-hooks'],
-  globals: {
-    __DEV__: true,
-  },
   rules: {
     ...commonRules,
     ...reactRules,
