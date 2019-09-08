@@ -4,6 +4,7 @@
   "description": "Okize's ESLint configurations",
   "main": "react.js",
   "scripts": {
+    "debug": "eslint --config ./reactNativeTypescript.js --print-config base.js",
     "lint": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
