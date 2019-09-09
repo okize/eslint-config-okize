@@ -12,7 +12,7 @@ module.exports = {
   rules: {
     ...commonRules,
     ...reactRules,
-    ...reactNativeRules,
     ...reactTypescript,
+    ...reactNativeRules,
   },
 };
