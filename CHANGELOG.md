@@ -1,3 +1,12 @@
+## [v1.5.0]
+
+> 2019-11-14
+
+- add config examples
+- various dependency major version upgrades
+
+[v1.5.0]: https://github.com/okize/eslint-config-okize/compare/v1.4.2...v1.5.0
+
 ## [v1.4.2]
 
 > 2019-09-06
