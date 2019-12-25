@@ -16,6 +16,19 @@ module.exports = {
       functions: 'ignore',
     },
   ],
+  // anonymous exports make grepping code from Dev Tools component tree more difficult
+  'import/no-anonymous-default-export': [
+    'error',
+    {
+      allowArray: false,
+      allowArrowFunction: false,
+      allowAnonymousClass: false,
+      allowAnonymousFunction: false,
+      allowCallExpression: true, // for backward compatibility
+      allowLiteral: false,
+      allowObject: false,
+    },
+  ],
   // the default is 4 arguments, this just bumps it up a bit
   'object-curly-newline': [
     'error',
