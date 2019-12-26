@@ -1,3 +1,11 @@
+## [v1.6.0]
+
+> 2019-12-27
+
+- add rule to prevent anonymous exports
+
+[v1.6.0]: https://github.com/okize/eslint-config-okize/compare/v1.5.0...v1.6.0
+
 ## [v1.5.0]
 
 > 2019-11-14
@@ -11,7 +19,7 @@
 
 > 2019-09-06
 
-- Update React Native rules
+- update React Native rules
 
 [v1.4.2]: https://github.com/okize/eslint-config-okize/compare/v1.4.1...v1.4.2
 
@@ -19,7 +27,7 @@
 
 > 2019-08-29
 
-- Update RN-Typescript rules
+- update RN-Typescript rules
 
 [v1.4.1]: https://github.com/okize/eslint-config-okize/compare/v1.4.0...v1.4.1
 
@@ -27,7 +35,7 @@
 
 > 2019-07-29
 
-- Add base configuration for Typescript projects
+- add base configuration for Typescript projects
 
 [v1.4.0]: https://github.com/okize/eslint-config-okize/compare/v1.3.0...v1.4.0
 
@@ -35,7 +43,7 @@
 
 > 2019-07-26
 
-- Add configuration for React Native Typescript projects
+- add configuration for React Native Typescript projects
 
 [v1.3.0]: https://github.com/okize/eslint-config-okize/compare/v1.2.0...v1.3.0
 
@@ -43,7 +51,7 @@
 
 > 2019-07-23
 
-- Add configuration for React Typescript projects
+- add configuration for React Typescript projects
 
 [v1.2.0]: https://github.com/okize/eslint-config-okize/compare/v1.1.0...v1.2.0
 
@@ -51,7 +59,7 @@
 
 > 2019-07-14
 
-- Add rules for React Hooks
+- add rules for React Hooks
 
 [v1.1.0]: https://github.com/okize/eslint-config-okize/compare/v1.0.0...v1.1.0
 
@@ -59,6 +67,6 @@
 
 > 2019-07-06
 
-- Initial release
+- initial release
 
 [v1.0.0]: https://github.com/okize/eslint-config-okize/compare/967764bb...v1.0.0
