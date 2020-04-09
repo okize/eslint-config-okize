@@ -1,7 +1,7 @@
 const testRules = require('./rules/jest');
 
 module.exports = {
-  plugins: ['jest'],
+  plugins: ['jest', 'jest-formatting'],
   rules: {
     ...testRules,
   },
