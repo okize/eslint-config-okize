@@ -1,3 +1,12 @@
+## [v1.7.0]
+
+> 2020-05-10
+
+- expanded Jest rules
+- dependency upgrades, including Prettier v2
+
+[v1.7.0]: https://github.com/okize/eslint-config-okize/compare/v1.6.0...v1.7.0
+
 ## [v1.6.0]
 
 > 2019-12-27
