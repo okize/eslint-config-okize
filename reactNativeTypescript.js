@@ -5,10 +5,10 @@ const reactTypescript = require('./rules/reactTypescript');
 
 module.exports = {
   extends: [
-    'plugin:@typescript-eslint/recommended',
     'airbnb-typescript',
+    'airbnb/hooks',
+    'plugin:@typescript-eslint/recommended',
   ],
-  plugins: ['react-hooks'],
   rules: {
     ...commonRules,
     ...reactRules,
