@@ -4,7 +4,7 @@
   "description": "Okize's ESLint configurations",
   "main": "react.js",
   "scripts": {
-    "lint": "eslint . --fix",
+    "lint": "eslint --fix --report-unused-disable-directives .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
@@ -27,18 +27,16 @@
     "eslint": "^6.0.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-jest-formatting": "^2.0.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-react-native": "^3.7.0",
+    "prettier": "^2.0.0",
     "typescript": "^4.0.0"
-  },
-  "devDependencies": {
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^2.0.0"
   }
 }
