@@ -1,8 +1,9 @@
 const commonRules = require('./rules/common');
 
 module.exports = {
-  extends: 'airbnb-base',
   parser: 'babel-eslint',
+  extends: ['airbnb-base', 'prettier'],
+  plugins: ['prettier'],
   rules: {
     ...commonRules,
   },

@@ -3,8 +3,14 @@ const reactRules = require('./rules/react');
 const a11yRules = require('./rules/a11y');
 
 module.exports = {
-  extends: ['airbnb', 'airbnb/hooks'],
   parser: 'babel-eslint',
+  extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'prettier',
+    'prettier/react',
+  ],
+  plugins: ['prettier'],
   rules: {
     ...commonRules,
     ...reactRules,
