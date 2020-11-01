@@ -1,6 +1,9 @@
-// these rules are included in all config types
+const prettierConfig = require('./prettierConfig');
 
+// these rules are included in all config types
 module.exports = {
+  // prettier configuration
+  'prettier/prettier': ['error', prettierConfig],
   // force func args to always be in parens
   'arrow-parens': ['error', 'always'],
   // this rule is not particularly useful
