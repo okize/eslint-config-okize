@@ -48,14 +48,10 @@ module.exports = {
   'jest/valid-title': 'error',
 
   // formatting rules for tests
-  'jest-formatting/padding-around-after-all-blocks':
-    'error',
-  'jest-formatting/padding-around-after-each-blocks':
-    'error',
-  'jest-formatting/padding-around-before-all-blocks':
-    'error',
-  'jest-formatting/padding-around-before-each-blocks':
-    'error',
+  'jest-formatting/padding-around-after-all-blocks': 'error',
+  'jest-formatting/padding-around-after-each-blocks': 'error',
+  'jest-formatting/padding-around-before-all-blocks': 'error',
+  'jest-formatting/padding-around-before-each-blocks': 'error',
   'jest-formatting/padding-around-expect-groups': 'error',
   'jest-formatting/padding-around-describe-blocks': 'error',
   'jest-formatting/padding-around-test-blocks': 'error',

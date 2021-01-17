@@ -63,8 +63,5 @@ module.exports = {
   // 150 is an arbitrary but reasonable limit
   'max-len': ['error', 150, 4],
   // this will allow unary operators in for loops only
-  'no-plusplus': [
-    'error',
-    { allowForLoopAfterthoughts: true },
-  ],
+  'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 };

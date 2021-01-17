@@ -4,12 +4,7 @@ const a11yRules = require('./rules/a11y');
 
 module.exports = {
   parser: 'babel-eslint',
-  extends: [
-    'airbnb',
-    'airbnb/hooks',
-    'prettier',
-    'prettier/react',
-  ],
+  extends: ['airbnb', 'airbnb/hooks', 'prettier', 'prettier/react'],
   plugins: ['prettier'],
   rules: {
     ...commonRules,
