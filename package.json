@@ -27,7 +27,7 @@
     "eslint": "^7.0.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-jest-formatting": "^2.0.0",
