@@ -32,34 +32,6 @@ module.exports = {
       allowObject: false,
     },
   ],
-  // the default is 4 arguments, this just bumps it up a bit
-  'object-curly-newline': [
-    'error',
-    {
-      ObjectExpression: {
-        minProperties: 6,
-        multiline: true,
-        consistent: true,
-      },
-      ObjectPattern: {
-        minProperties: 6,
-        multiline: true,
-        consistent: true,
-      },
-      ImportDeclaration: {
-        minProperties: 6,
-        multiline: true,
-        consistent: true,
-      },
-      ExportDeclaration: {
-        minProperties: 6,
-        multiline: true,
-        consistent: true,
-      },
-    },
-  ],
-  // this prevents `if` clauses from being one-liners without curly braces
-  curly: ['error', 'all'],
   // 150 is an arbitrary but reasonable limit
   'max-len': ['error', 150, 4],
   // this will allow unary operators in for loops only
