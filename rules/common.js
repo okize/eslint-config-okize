@@ -4,8 +4,6 @@ const prettierConfig = require('./prettierConfig');
 module.exports = {
   // prettier configuration
   'prettier/prettier': ['error', prettierConfig],
-  // force func args to always be in parens
-  'arrow-parens': ['error', 'always'],
   // this rule is not particularly useful
   'class-methods-use-this': 'off',
   // this avoids forcing trailing commas in function args
