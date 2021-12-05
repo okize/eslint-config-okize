@@ -22,7 +22,7 @@
   "homepage": "https://github.com/okize/eslint-config-okize#readme",
   "dependencies": {
     "@babel/eslint-parser": "^7.13.10",
-    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
     "@typescript-eslint/parser": "^5.3.0",
     "eslint": "^7.0.0",
     "eslint-config-airbnb": "^18.0.1",
